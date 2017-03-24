@@ -1,0 +1,6 @@
+<!-- BEGIN_INCLUDE(dbf-reader:greet) -->
+    <dbf-reader:greet config-ref="" friend="#[map-payload:friend]" />
+<!-- END_INCLUDE(dbf-reader:greet) -->
+<!-- BEGIN_INCLUDE(dbf-reader:add-entity) -->
+    <dbf-reader:add-entity config-ref="" key="id1"/>
+<!-- END_INCLUDE(dbf-reader:add-entity) -->
